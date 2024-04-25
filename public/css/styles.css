@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.race-card {
+    margin: 0 auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 85%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.race-card h2 {
+    margin-top: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.url {
+    margin-top: 7em;
+    font-weight: bold;
+}
+
+.url a {
+    color: black;
+}

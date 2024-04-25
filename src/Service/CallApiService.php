@@ -14,6 +14,6 @@ class CallApiService
     public function getRacesIn2024(): array
     {
         $response = $this->httpClient->request("GET", "https://ergast.com/api/f1/2024.json");
-        return $response->toArray();
+        return $response->toArray(); // response converted to array
     }
 }
